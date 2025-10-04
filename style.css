@@ -660,9 +660,12 @@ nav{
 .logo h1{
     font-size: 15px;
 }
+.navlinks ul {
+    padding-left: 20px;
+}
 
 .hero{
-    padding: 20px;
+    padding: 40px;
 }
 .hero-content{
     width: 300px;
@@ -673,7 +676,7 @@ nav{
 }
 .hero-content p{
     width: 300px;
-    height: 70px
+    height: 80px
     font-size: 14px;
     padding-bottom: 20px;
     
