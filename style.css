@@ -646,7 +646,7 @@ ion-icon {
 
 @media(max-width: 768px){
 .picture img{
-    width: 370px;
+    width: 350px;
     height: 350px;
     border-radius: 8px;
     padding: 0px;
@@ -658,7 +658,7 @@ nav{
     
 }
 .logo h1{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .hero{
@@ -672,6 +672,8 @@ nav{
     font-size: 50px;
 }
 .hero-content p{
+    width: 300px;
+    height: 70px
     font-size: 14px;
     padding-bottom: 20px;
     
