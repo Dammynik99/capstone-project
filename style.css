@@ -1,0 +1,837 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    background-color: rgb(25, 2, 2);
+    margin:0;
+    flex-wrap: wrap;
+   }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: #C7C7C7;
+    padding: 20px 60px;
+
+    
+
+}
+.logo h1{
+    font-family: Bebas Neue, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 150%;
+    letter-spacing: -1%;
+}
+.navlinks ul{
+    display: flex;
+    gap: 20px;
+    font-family: Inter, sans-serif;
+    font-size: 11px;
+}
+.navlinks ul li {
+    list-style: none;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+.hero-content{
+    width: 450px;
+    height: 350px;
+    gap: 40px;
+}
+.hero-content h2{
+    font-family: Bebas Neue, sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 90%;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+.hero-content p{
+    width: 400px;
+    height: 45px;
+    font-family: Manrope, sans-serif;
+    color: #C7C7C7;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 140%;
+    padding-bottom: 10px;
+}
+.hero button{
+    display: flex;
+align-items: center;
+ background-color:#ac8239;
+ width: 130px;
+ height: 40px;
+padding: 15px;
+gap: 12px;
+border-radius: 100px;
+border: none;
+text-transform: uppercase;
+color:#010101;
+font-family: Manrope, sans-serif;
+font-weight: 700;
+font-size: 12px;
+line-height: 100%;
+cursor:pointer;
+transition: 3s;
+}
+button img{
+    border-radius: 100px;
+}
+
+ .hero button :hover{
+    background-color: #4d3917;
+    color: #e0dcdc;
+}
+.image img{
+    width: 430px;
+    height: 450px;
+    border-radius: 20px;
+    opacity: 1;
+}
+.project{
+    padding: 60px;
+    border-top: 1px solid #484848;
+}
+
+.text{
+    padding: 60px;
+    padding-bottom: 0px;
+    width: 450px;
+    height: 150px;
+    gap: 12px;
+}
+.text h3{
+    font-family: Bebas Neue, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 100%;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+
+}
+.text p{
+    font-family: Manrope, sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 150%;
+    color: #C7C7C7;
+}
+.project1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.landing-page{
+    width: 360px;
+    height: 380px;
+    background-color:#1A1A1A;
+    border-radius: 12px;
+    
+
+}
+.landing-page img{
+    background:none;
+    width: 270px;
+    height: 250px;
+    border-radius: 12px;
+    padding: 70px 45px;
+    border: 2px;
+
+}
+.text-box{
+    font-family: Manrope, sans-serif;
+    padding-right: 50px;
+    width: 440px;
+    height: 380px;
+}
+.text-box h4{
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+color: #FFFFFF;
+padding-bottom:20px;
+
+}
+.text-box p{
+font-weight: 400;
+font-size: 13px;
+line-height: 150%;
+color: #C7C7C7;
+padding-bottom: 20px;
+}
+.info{
+    gap: 32px;
+}
+
+.info h5{
+    font-family: Manrope, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 150%;
+    border-bottom: 1px solid #484848;
+    padding-bottom: 10px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-bottom: 1px solid #484848 ;
+
+}
+.year p{
+    font-family:Manrope, sans-serif;
+    font-size: 13px;
+    font-weight:400;
+    line-height: 160%;
+}
+.no p{
+    font-family:Manrope, sans-serif;
+    font-size: 13px;
+    font-weight:400;
+    line-height: 160%;
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-bottom: 1px solid #484848 ;
+
+}
+
+.role p{
+    font-family:Manrope, sans-serif;
+    font-size: 13px;
+    font-weight:400;
+    line-height: 160%;
+}
+.position p{
+    font-family:Manrope, sans-serif;
+    font-size: 13px;
+    font-weight:400;
+    line-height: 160%;
+}
+.link ul {
+    display: flex;
+    font-family: manrope, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    gap: 30px;
+    padding-top: 30px;
+    padding-left: 0px;
+}
+.link ul li a{
+  line-height: 150%;
+  text-decoration: none;
+  color: #d5972d;
+
+}
+.link  ul li a::after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #d5972d;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.project2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+}
+.signup img{
+    background:none;
+    width: 270px;
+    height: 250px;
+    border-radius: 12px;
+    padding: 70px 45px;
+    border: 2px;
+}
+.signup{
+    width: 360px;
+    height: 380px;
+    background-color:#1A1A1A;
+    border-radius: 12px;
+    justify-content:center;
+}
+.textbox{
+    font-family: Manrope, sans-serif;
+    width: 450px;
+    height: 380px;
+}
+.textbox h6{
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+color: #FFFFFF;
+padding-bottom:20px;
+}
+.textbox p{
+font-weight: 400;
+font-size: 13px;
+line-height: 150%;
+color: #C7C7C7;
+padding-bottom: 20px;
+}
+.project3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+}
+.card img{
+    background:none;
+    width: 300px;
+    height: 240px;
+    border-radius: 12px;
+    padding: 65px 30px;
+    border: 2px;
+}
+.card{
+    width: 360px;
+    height: 380px;
+    background-color:#1A1A1A;
+    border-radius: 12px;
+    justify-content:center;
+}
+.tbox{
+    font-family: Manrope, sans-serif;
+    width: 450px;
+    height: 380px;
+
+}
+.tbox h6{
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+color: #FFFFFF;
+padding-bottom:20px;
+}
+.tbox p{
+font-weight: 400;
+font-size: 13px;
+line-height: 150%;
+color: #C7C7C7;
+padding-bottom: 20px;
+}
+.project4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+}
+.errorpage img{
+   background:none;
+    width: 300px;
+    height: 200px;
+    border-radius: 12px;
+    padding: 65px 30px;
+    border: 2px;
+}
+.errorpage{
+    width: 360px;
+    height: 330px;
+    background-color:#1A1A1A;
+    border-radius: 12px;
+    justify-content:center;
+}
+.errortext{
+    font-family: Manrope, sans-serif;
+    width: 450px;
+    height: 380px;
+}
+.errortext h6{
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+color: #FFFFFF;
+padding-bottom:20px;
+}
+.errortext p{
+font-weight: 400;
+font-size: 13px;
+line-height: 150%;
+color: #C7C7C7;
+padding-bottom: 20px;
+}
+.about{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+    border-top: 1px solid #484848;
+
+}
+.about .me h4{
+    font-family: Bebas Neue, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 90%;
+    width: 300px;
+    height: 300px;
+
+    
+}
+.about-text{
+    width: 500px;
+    height: 300px;
+    gap: 16px;
+
+}
+.about-text h5{
+font-family: Manrope, sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+color: #FFFFFF;
+padding-bottom: 20px;
+}
+.about-text p{
+font-family: Manrope, sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #C7C7C7;
+padding-bottom: 20px;
+}
+.about button{ 
+display: flex;
+align-items: center;
+ background-color:#ac8239;
+ width: 150px;
+ height: 40px;
+padding: 15px;
+gap: 12px;
+border-radius: 100px;
+border: none;
+text-transform: uppercase;
+color:#010101;
+font-family: Manrope, sans-serif;
+font-weight: 700;
+font-size: 10px;
+line-height: 100%;
+cursor: pointer;
+transition: 3s;
+}
+button img{
+    border-radius: 100px;
+}
+.about button :hover{
+    background-color: #4d3917;
+    color: #e0dcdc;
+}
+.social{
+    display: flex;
+}
+
+.picture img{
+width: 1000px;
+height: 700px;
+opacity: 1;
+border-radius: 12px;
+margin-left: 100px;
+align-items: center;
+}
+.capable{
+    display: flex;
+    justify-content: space-around;
+    padding:60px;
+    gap: 24px;
+    border-bottom: 1px solid #484848;
+}
+.my-cap h4{
+font-family: Bebas Neue,sans-serif;
+font-size: 50px;
+font-weight: 400;
+line-height: 100%;
+color: #FFFFFF;
+width: 300px;
+height: 70px;
+}
+.cap{
+   width: 500px;
+    height: 200px; 
+
+}
+.cap p{
+    font-family: Manrope, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #C7C7C7;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.capable button{
+    background-color: transparent;
+    border-radius: 100px;
+    border: 1px solid #484848;
+    width: 100px;
+    height: 40px;
+    gap: 16px;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-right: 10px;
+    font-family: manrope ,sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+.connect{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.let{
+    padding-top: 0px;
+    width: 300px;
+    height: 
+    padding-left: 60px;
+}
+
+.conicon{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 350px
+
+}
+.icon{
+    margin-top: 15px;
+    padding-left: 0px;
+    padding-right: 10px;
+
+}
+.let h5{
+font-family: Bebas Neue,sans-serif;
+font-size: 50px;
+font-weight: 400;
+line-height: 100%;
+color: #FFFFFF;
+padding-bottom: 20px;
+}
+.let p{
+    font-family: Manrope, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+    gap: 8px;
+    color: #C7C7C7;
+    display: inline-block;
+}
+.let a{
+text-decoration: none;
+color: #C7C7C7;
+font-family: manrope, sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 150%;
+gap: 5px;
+cursor: pointer;
+}
+.mail{
+    border-bottom:1px solid #d5972d;
+    display: inline-block;
+    padding-left: 4px;
+}
+.resume{
+    border-bottom:1px solid #d5972d;
+    display: inline-block;
+    padding-left: 4px;
+}
+
+.form-group  label{
+    display: block;
+    color: #FFFFFF;
+     font-family:Manrope, sans-serif ;
+    font-size: 12px;
+    font-weight: 400;
+    gap: 12px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    line-height: 150%;
+}
+form {
+    width: 400px;
+    height: 500px;
+    padding: 60px;
+    padding-bottom: 0px;
+
+}
+.form-wrap label{
+    display: block;
+    color: #FFFFFF;
+    font-family:Manrope, sans-serif ;
+    font-size: 12px;
+    font-weight: 400;
+    gap: 12px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    line-height: 150%;
+
+}
+.form-group input{
+    width: 320px;
+    border-radius: 4px;
+    font-family: Manrope, sans-serif;
+    background-color: #372626;
+    border: none;
+    padding-bottom: 10px;
+    gap: 12px;
+}
+.form-wrap input{
+    width: 320px;
+    padding-bottom: 60px;
+    border-radius: 4px;
+    font-family: Manrope, sans-serif;
+    background-color: #372626;
+    border: none;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+form button{
+    background-color: #ac8239;
+    color: #0A0A0A;
+    border-radius: 100px;
+    border: none;
+    width: 100px;
+    height: 35px;
+    gap: 12px;
+    font-family: manrope, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 100%;
+    cursor: pointer;
+    transition: 3s;
+}
+.year2 p{
+    font-family: manrope, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #C7C7C7;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+.btn{
+    display: flex;
+}
+.social{}
+
+ion-icon {
+    width: 20px;
+    height: 20px;
+    color: #ac8239;
+    margin: 10px;
+    padding-left: 5px;
+ }
+ .link-tag{
+    display: flex;
+    flex-direction: row;
+ }
+
+@media(max-width: 768px){
+.picture img{
+    width: 370px;
+    height: 350px;
+    border-radius: 8px;
+    padding: 0px;
+    margin: 30px;
+    margin-top: 0px;
+}
+nav{
+    padding: 20px;
+    
+}
+.logo h1{
+    font-size: 20px;
+}
+
+.hero{
+    padding: 20px;
+}
+.hero-content{
+    width: 300px;
+    height: 250px;
+}
+.hero-content h2{
+    font-size: 50px;
+}
+.hero-content p{
+    font-size: 14px;
+    padding-bottom: 20px;
+    
+}
+.hero button{
+ width: 130px;
+ height: 38px;
+}
+.image img{
+    width: 350px;
+    height: 370px;
+    border-radius: 10px;
+    opacity: 1;
+
+
+}
+.project{
+    padding: 40px;
+}
+
+.text{
+    padding: 0px;
+    width: 343px;
+    height: 143px;
+}
+.text h3{
+    font-size: 45px;
+}
+.text p{
+font-size: 15px;
+}
+.project1{
+    width: 350px;
+    height: 820px;
+    padding: 0px;
+    
+}
+.text-box{
+    width: 350px;
+}
+.project2{
+    width: 350px;
+    height: 820px;
+    padding-top: 0;
+}
+.textbox{
+    width:350px;
+    padding-right: 0px;
+}
+.project3{
+    width: 350px;
+    height: 820px;
+    padding-top: 0px;
+}
+.tbox{
+    width: 350px;
+    padding-right: 0px;
+}
+.project4{
+    width: 350px;
+    height: 820px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.errortext{
+    width: 350px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+.about{
+    padding: 40px;
+    width: 350px;
+    height: 480px;
+}
+.about .me h4{
+    width: 350px;
+    height: 70px;
+    font-size: 50px;
+}
+.about-text{
+    width: 350px;
+    height: 560px;
+}
+.about button{
+
+}
+.capable{
+    padding: 40px;
+    width: 350px;
+    height: 300px;
+    padding-bottom: 0px;
+}
+.my-cap h4{
+    width: 350px;
+    height: 30px;
+    font-size:40px;
+    letter-spacing: -2%;
+}
+.cap {
+    width: 350px;
+    height: 200px;
+
+}
+.capable button{
+    margin: 10px;
+}
+.connect{
+    width: 350px;
+    height: 600px;
+    padding: 40px;
+    padding-left: 0px;
+}
+
+.conicon{
+    width: 350px;
+    height: 200px;
+    padding-left: 40px;
+    padding-bottom: 0px;
+}
+icon{
+    margin-top: 15px;
+    padding-left: 0px;
+    padding-right: 10px;
+    
+}
+
+.let h5{
+    padding-left: 0px;
+    font-size: 40px;
+    width: 350px;
+    height: 30px;
+}
+.let p{
+    width: 350px;
+    height: 30px;
+    gap: 8px;
+    font-size: 14px;
+    display: inline;
+
+}
+.let a{
+    font-size: 14px;
+    gap: 8px;
+}
+form{
+    padding-top: 0px;
+    width: 350px;
+    height: 300px;
+    gap: 32px;
+    padding-bottom: 40px;
+}
+.year2 p{
+    width: 160px;
+    height:20px ;
+    font-size: 14px;
+    line-height: 160%;
+    padding-left: 50px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+}
+
+
